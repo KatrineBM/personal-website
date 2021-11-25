@@ -1,0 +1,50 @@
+*{
+	margin:0
+}
+
+#navigation ul{ 
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+   background: #333;
+}
+
+#navigation ul li{
+   float:left;
+}
+
+#navigation ul li a{
+   display: block;
+   padding: 20px;
+   background: #F5F5DC;
+}
+
+
+#header{
+   background: black;
+   background-position: center;
+   background-size: 100%;
+   color:white;
+   font-weight:bold;
+   padding:70px;
+}
+
+#developer_name
+{
+   margin-top:30px;
+   
+}
+#about
+{
+   background:#1adc9f;
+   color: black;
+   padding:70px;	
+}
+#portfolio
+{
+   background:white;
+   color:black;
+   padding:70px;
+   font-size:150%;
+}
