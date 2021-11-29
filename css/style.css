@@ -7,7 +7,8 @@
      margin: 0;
      padding: 0;
      overflow: hidden;
-   background: #333;
+   background: rgb(0, 0, 0);
+ 
 }
 
 #navigation ul li{
@@ -16,35 +17,359 @@
 
 #navigation ul li a{
    display: block;
-   padding: 20px;
-   background: #F5F5DC;
+   margin-top: 30px;
+   margin-bottom: 5px;
+   margin-left: 20px;
+   padding-right:20px;
+   padding: 30px;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+  color:#16A34A;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  
+  
 }
 
 
 #header{
-   background: black;
-   background-position: center;
+   background: url('../images/colorful.jpg');
+   background-position: center, no repeat;
    background-size: 100%;
-   color:white;
+   color:#22D3EE;
+   text-shadow: 3px 3px black;
    font-weight:bold;
-   padding:70px;
+   padding:62px;
+   font-size: xx-large;
+   font-family: sans-serif;
+   
 }
 
 #developer_name
 {
-   margin-top:30px;
+   margin-top:35px;
+   color:00BCD4;
+   text-shadow: 3px 3px black;
+   font-size: 50px;
+
+   
    
 }
 #about
 {
-   background:#1adc9f;
-   color: black;
-   padding:70px;	
-}
-#portfolio
-{
-   background:white;
+   background: url('../images/colorful.jpg') left top no-repeat, url('../images/me.jpg') right bottom no-repeat;
+  background-size: 1200px, 600px, auto;
+   position:relative;
+   height: 700px;
+   inline-size: 100;
    color:black;
-   padding:70px;
-   font-size:150%;
+   font-size: 180%;
+   font-weight: bold;
+   padding-top: 100px;
+   padding-left: 50px;
+   padding-right:500px;
+  
 }
+#aboutMe
+{
+   display: flex;
+   background: url('../images/black.jpg') left top no-repeat;
+   background-size: 100%;
+   height: 500px;
+   inline-size: 100;
+   color:black;
+}
+
+#aboutMe-professional
+{
+   display: flex;
+   align-items: center;
+   font-style: italic;
+   font-weight:bold; 
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(26, 194, 26);
+   text-shadow: 1px 1px rgb(160, 131, 131);
+   padding: 60px;
+}
+
+#aboutMe-image img{
+   height: 100%;
+}
+
+#footer ul{ 
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:black;
+    opacity: 0.9;
+
+}
+
+#footer ul li{
+  float:right;
+}
+
+#footer ul li a{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding-right:20px;
+  padding: 30px;
+ background-color: transparent;
+ text-decoration: none;
+ text-shadow: 2px 2px black;
+ color:#22D3EE;
+ font-size: 13px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bolder;
+}
+#about-footer ul{ 
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:black;
+    opacity: 0.9;
+
+}
+
+#about-footer ul li{
+  float:right;
+}
+
+#about-footer ul li a{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding-right:20px;
+  padding: 30px;
+ background-color: transparent;
+ text-decoration: none;
+ text-shadow: 2px 2px black;
+ color:rgb(68, 201, 211);
+ font-size: 13px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bolder;
+}
+#family-background
+{
+   display: flex;
+   background: url('../images/colorful.jpg') left top no-repeat;
+   background-size: 100%;
+   height: 770px;
+   inline-size: 100;
+}
+#family-background-list
+{
+   display: flex;
+   align-items: center;
+   font-style: italic;
+   font-weight:bold; 
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(0, 10, 0);
+   text-shadow: 1px 1px rgb(160, 131, 131);
+   padding: 80px;
+}
+#family-background-image img
+{
+height: 100%;
+}
+
+#family-background-footer ul{ 
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:black;
+    opacity: 0.9;
+
+}
+
+#family-background-footer ul li{
+  float:right;
+}
+
+#family-background-footer ul li a{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding-right:20px;
+  padding: 30px;
+ background-color: transparent;
+ text-decoration: none;
+ text-shadow: 2px 2px black;
+ color:rgb(68, 201, 211);
+ font-size: 13px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bolder;
+}
+#educational-background
+{
+   display: flex;
+   background: url('../images/colorful.jpg') left top no-repeat;
+   background-size: 100%;
+   height: 730px;
+   inline-size: 100;
+   color:black;
+}
+#educational-background-list
+{
+   display: flex;
+   align-items: center;
+   font-style: italic;
+   font-weight:bold; 
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: black;
+   text-shadow: 1px 1px rgb(160, 131, 131);
+   padding: 80px
+}
+#educational-background-image img
+{
+   height: 100%;
+   float:left;
+}
+#educational-background-footer ul{ 
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:black;
+    opacity: 0.9;
+
+}
+
+#educational-background-footer ul li{
+  float:right;
+}
+
+#educational-background-footer ul li a{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding-right:20px;
+  padding: 30px;
+ background-color: transparent;
+ text-decoration: none;
+ text-shadow: 2px 2px black;
+ color:rgb(68, 201, 211);
+ font-size: 13px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bolder;
+}
+#educational-attainment
+{
+   display: flex;
+   background: url('../images/colorful.jpg') left top no-repeat;
+   background-size: 100%;
+   height: 730px;
+   inline-size: 110;
+   color:black;
+}
+
+#educational-attainment-description
+{
+   display: flex;
+   align-items: center;
+   font-style: italic;
+   font-weight:bold; 
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: black;
+   text-shadow: 1px 1px rgb(160, 131, 131);
+   padding: 62px;
+}
+
+#educational-attainment-image img{
+   height: 100%;
+   float:left;
+}
+
+#educational-attainment-footer ul{ 
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:black;
+    opacity: 0.9;
+
+}
+
+#educational-attainment-footer ul li{
+  float:right;
+}
+
+#educational-attainment-footer ul li a{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding-right:20px;
+  padding: 30px;
+ background-color: transparent;
+ text-decoration: none;
+ text-shadow: 2px 2px black;
+ color:rgb(68, 201, 211);
+ font-size: 13px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bolder;
+}
+#favourites
+{
+   display: flex;
+   background: url('../images/colorful.jpg') left top no-repeat;
+   background-size: 100%;
+   height: 770px;
+   inline-size: 100;
+}
+#favourites-description
+{
+   display: flex;
+   align-items: center;
+   font-style: italic;
+   font-weight:bold; 
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(0, 10, 0);
+   text-shadow: 1px 1px rgb(160, 131, 131);
+   padding: 130px;
+}
+#favourites-image img
+{
+height: 100%;
+}
+#photo-gallery
+{
+   display: flex;
+   background: url('../images/colorful.jpg') left top no-repeat;
+   background-size: 100%;
+   height: 770px;
+   inline-size: 100;
+}
+#photo-gallery-description
+{
+   display: flex;
+   align-items: center;
+   font-style: italic;
+   font-weight:bold; 
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(0, 10, 0);
+   text-shadow: 1px 1px rgb(160, 131, 131);
+   padding: 100px;
+}
+#photo-gallery-image img
+{
+height: 100%;
+width: 100%;
+}
+
